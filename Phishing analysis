@@ -1,0 +1,70 @@
+🚨 Phishing Email Analysis Report
+📧 Subject: "Your account is in danger"
+1️⃣ Examine Sender’s Email Address
+Shown Address: no-reply.accounts.google@wpereview.org
+
+🔍 Red Flags:
+
+Legitimate Google emails come from domains like @google.com, not @wpereview.org.
+
+This domain appears unrelated and suspicious — classic email spoofing tactic.
+
+2️⃣ Check Email Headers for Discrepancies
+
+🛠️ Suggested Tool: Use an email header analyzer to review:
+
+SPF/DKIM/DMARC validation
+
+Actual sending server's IP
+
+Return-path mismatches
+
+3️⃣ Identify Suspicious Links or Attachments
+🔗 Suspicious Button: Install Google Defender
+
+⚠️ Concerns:
+
+This “Google Defender” does not exist — it's a fake application.
+
+The button likely redirects to a malicious or phishing site.
+
+4️⃣ Look for Urgent or Threatening Language
+🗣️ Message says: “Your account is in danger” and urges immediate action.
+
+😨 Intent: To scare the user into clicking without thinking — fear-based phishing.
+
+5️⃣ Check for Mismatched URLs
+👀 Required Action: Hover over the “Install Google Defender” button.
+
+❌ If the link does not lead to a Google domain, it's likely a phishing trap.
+
+6️⃣ Verify Grammar & Spelling
+🔍 Observation:
+
+Wording is overly simplistic.
+
+Odd phrase: “Best, The Mail Team” — Google does not use this sign-off.
+
+The footer: “2016 Mail Corp.” is fake and doesn't exist.
+
+📌 Summary of Phishing Traits Identified
+🧪 Trait	⚠️ Detected	💬 Notes
+Spoofed email address	✅	Uses a non-Google domain
+Urgent/threatening message	✅	Tries to create panic
+Suspicious/masked links	✅	Likely leads to malware/phishing site
+Mismatched branding	✅	No such app as “Google Defender”, strange sign-off used
+Grammar/spelling issues	✅	Odd tone, informal structure
+Unusual request or prompt	✅	Asking to install a fake application
+
+🛡️ Recommendation
+🚫 Do NOT click on the "Install Google Defender" button.
+
+📣 Report the email to your IT/Security team or Google’s phishing reporting portal.
+
+🧹 If you’ve clicked already:
+
+Disconnect from the internet
+
+Run a full antivirus/malware scan
+
+Reset your Google account credentials immediately
