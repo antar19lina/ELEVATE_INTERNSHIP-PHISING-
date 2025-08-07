@@ -1,0 +1,75 @@
+🕵️‍♂️ Phishing Email Analysis Report
+📩 Subject: "has a document for your review"
+1️⃣ Examine Sender’s Email Address
+Sender: goog...@protected-download.com
+
+🚩 Red Flag:
+
+The domain protected-download.com is not associated with Google.
+
+This is a spoofed address, made to look like a Google service.
+
+2️⃣ Check Email Headers for Discrepancies
+
+🔧 Recommended Tool: MX Toolbox Email Header Analyzer
+
+✅ Check for:
+
+SPF / DKIM / DMARC authentication
+
+Sending server IP
+
+Return-path domain mismatch
+
+3️⃣ Identify Suspicious Links or Attachments
+🔗 Highlighted Link: "📄 Click Here"
+
+⚠️ Highly suspicious:
+
+Clicking the link could lead to a malicious phishing site that steals credentials or installs malware.
+
+No clear information on what the PDF is or who it’s from.
+
+4️⃣ Look for Urgent or Vague Language
+💬 Message is vague: “has shared the following PDF”
+
+🚨 This lack of context is a known tactic to encourage curiosity-driven clicks.
+
+5️⃣ Check for Mismatched URLs
+🧐 Action Needed: Hover over the "Click Here" link to inspect the real URL.
+
+If it doesn’t point to a verified Google domain (e.g., drive.google.com), it’s likely malicious.
+
+6️⃣ Verify Grammar and Branding
+📌 Odd phrasing: “has shared the following PDF” without naming the sender
+
+🤔 Uses Google Drive branding and logo without proper formatting or context
+
+✅ Google normally includes:
+
+Sender’s full name
+
+File title
+
+Verified Google domain
+
+📌 Summary of Phishing Traits Identified
+🧪 Trait	⚠️ Detected	💬 Notes
+Spoofed sender address	✅	Not from a Google-owned domain
+Vague/curiosity-based message	✅	No sender info, unclear file purpose
+Suspicious link	✅	Redirect is likely fake or malicious
+Misuse of branding	✅	Fake Google Drive styling, improper formatting
+Grammar/spelling issues	❌	None obvious, but context is unnatural
+No personalization	✅	No greeting or name, generic “has shared...” phrase
+
+🛡️ Final Recommendation
+✅ DO NOT click the “Click Here” or “Open” buttons.
+📣 Immediately report this email as phishing to your IT or security team.
+
+If you already clicked:
+
+🔌 Disconnect from the internet
+
+🛠️ Run a malware scan
+
+🔐 Change your email and Google account passwords
